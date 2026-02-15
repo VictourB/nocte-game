@@ -12,6 +12,9 @@ TERMINAL_VELOCITY = 800
 JUMP_FORCE = -600     # Negative because UP is -Y
 FLOOR_Y = 600         # A temporary hardcoded floor for testing
 
+ACCELERATION = 800      # How fast you gain speed
+FRICTION = 3000          # How fast you slow down
+MAX_SPEED = 300          # Speed cap
 
 # --- Colors (RGB)
 WHITE = (255, 255, 255)
